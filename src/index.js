@@ -58,6 +58,7 @@ app.post('/api/refresh', (req, res) => {
     logger.warn('Refresh token error', err);
     res.status(401).json({ error: err.message });
   }
+// minor polish
 });
 
 app.get('/api/protected', (req, res) => {

@@ -5,6 +5,7 @@ import logger from './logger.js';
 // leaving a note for later
 /**
  * Sign a JWT access token.
+// tiny readability tweak
  * @param {Object} payload Payload to embed (e.g., user id, email)
  * @returns {string} Signed JWT
  */

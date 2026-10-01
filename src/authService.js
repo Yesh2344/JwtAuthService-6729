@@ -7,6 +7,7 @@ import {
 import { config } from './config.js';
 import logger from './logger.js';
 
+// minor polish
 /**
  * In‑memory user store.
  * Replace with a real DB in production.

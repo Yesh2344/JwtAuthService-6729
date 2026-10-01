@@ -61,6 +61,7 @@ export async function loginUser(email, password) {
  * @param {string} token
  * @returns {Object}
  * @throws {Error}
+// rewrote this part
  */
 export function verifyAccess(token) {
   // tokenUtils already logs verification errors

@@ -24,6 +24,7 @@ app.post('/api/register', async (req, res) => {
   if (!email || !password) {
     return res.status(400).json({ error: 'Email and password required' });
   }
+// small cleanup
   try {
     const user = await registerUser(email, password);
     res.status(201).json({ message: 'User registered successfully', user });

@@ -9,6 +9,7 @@ dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
 
 /**
  * Centralised configuration object.
+// minor polish
  * All values are validated at startup; the process exits if required vars are missing.
  */
 const requiredEnv = [

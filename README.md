@@ -23,3 +23,5 @@ It demonstrates modern JavaScript patterns, comprehensive error handling, loggin
 - npm (comes with Node)
 
 ### Installation
+
+<!-- rewrote this part -->

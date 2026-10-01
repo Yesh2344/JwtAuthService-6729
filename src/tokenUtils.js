@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import { config } from './config.js';
 import logger from './logger.js';
 
+// leaving a note for later
 /**
  * Sign a JWT access token.
  * @param {Object} payload Payload to embed (e.g., user id, email)
